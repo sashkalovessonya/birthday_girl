@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("./media/Gemini_Generated_Image_1i83151i83151i83.png");
+    background-image: url("media/Gemini_Generated_Image_1i83151i83151i83.png");
     background-size: cover;
     background-position: center;
     background-repeat: repeat-y;
@@ -53,19 +53,19 @@ h2 {
 }
 
 .img-1 {
-    background-image: url("./media/kitty-1-removebg-preview.png");
+    background-image: url("media/kitty-1-removebg-preview.png");
     margin-left: 10px;
 }
 
 .img-2 {
-    background-image: url("./media/kitty-2-removebg-preview.png");
+    background-image: url("media/kitty-2-removebg-preview.png");
     margin-right: 10px;
 }
 
 .img-3 {
     width: 200px;
     height: 200px;
-    background-image: url("./media/3ffdf5239e11886acddefe34dcaf13be-removebg-preview.png");
+    background-image: url("media/3ffdf5239e11886acddefe34dcaf13be-removebg-preview.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
