@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("/media/Gemini_Generated_Image_1i83151i83151i83.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+}
+
+/* ===== TEXT ===== */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: beige;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6),
+                 0 0 20px rgba(255, 105, 180, 0.4);
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(178, 54, 182);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6),
+                 0 0 20px rgba(255, 105, 180, 0.4);
+}
+
+/* ===== CONTAINER ===== */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+}
+
+/* ===== VIDEO ===== */
+.video {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* ===== IMAGES ===== */
+.img-1,
+.img-2 {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-1 {
+    background-image: url("/media/kitty-1-removebg-preview.png");
+    margin-left: 10px;
+}
+
+.img-2 {
+    background-image: url("/media/kitty-2-removebg-preview.png");
+    margin-right: 10px;
+}
+
+.img-3 {
+    width: 200px;
+    height: 200px;
+    background-image: url("/media/3ffdf5239e11886acddefe34dcaf13be-removebg-preview.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* ===== BUTTON BLOCK ===== */
+.but{
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    background-color: #E89EB8;
+    color: azure;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video {
+        width: 90%;
+    }
+
+    .img-1,
+    .img-2 {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .video {
+        max-width: 450px;
+    }
+}
+
+.container iframe{
+    height: 500px;
+}
